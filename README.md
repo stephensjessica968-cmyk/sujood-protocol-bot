@@ -7,7 +7,8 @@ POST /invoke
 { "text": "We bow first." }
 
 { "seal": "Below the Dot", "message": "Ego off. Source on. Sujood accepted." }
-```
+
+
 
 pip install -r app/requirements.txt
 uvicorn app.main:app --reload
